@@ -1,0 +1,206 @@
+/*************font style****************/
+.g-font {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  color: #616161;
+}
+.pr-font {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 590;
+  line-height: 40.57px;
+  color: #eaeaea;
+}
+.ps-font {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  color: #eaeaea;
+}
+.t-font {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 590;
+  line-height: 19.09px;
+  color: #6285d5;
+}
+.mt-font {
+  font-family: SF Pro;
+  font-size: 16px;
+  font-weight: 590;
+  line-height: 19.09px;
+  color: #6285d5;
+}
+/*********************mobile font-style********************/
+.g-m-font {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: #616161;
+}
+.ps-m-font {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  color: #eaeaea;
+}
+/***********************modal css style********************/
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(15, 15, 17); /* Fallback color */
+  background-color: rgba(15, 15, 17, 0.4); /* Black w/ opacity */
+}
+
+/************************animation css******************/
+
+@keyframes rotate-bg {
+  0% {
+    background-image: repeating-conic-gradient(
+      from 0deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  12% {
+    background-image: repeating-conic-gradient(
+      from 40deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  24% {
+    background-image: repeating-conic-gradient(
+      from 80deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  36% {
+    background-image: repeating-conic-gradient(
+      from 120deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  48% {
+    background-image: repeating-conic-gradient(
+      from 160deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  60% {
+    background-image: repeating-conic-gradient(
+      from 200deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  72% {
+    background-image: repeating-conic-gradient(
+      from 240deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  84% {
+    background-image: repeating-conic-gradient(
+      from 280deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  96% {
+    background-image: repeating-conic-gradient(
+      from 3200deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+  108% {
+    background-image: repeating-conic-gradient(
+      from 360deg,
+      #6285d54d 0%,
+      #eaeaea 7%,
+      #eaeaea 13%,
+      #6285d54d 20%
+    );
+  }
+}
+.border-animation {
+  background-image: repeating-conic-gradient(
+    #6285d54d 0%,
+    #eaeaea 7%,
+    #eaeaea 13%,
+    #6285d54d 20%
+  );
+  position: relative;
+  animation: rotate-bg 2s linear infinite;
+}
+@keyframes dropdown {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 120px;
+  }
+}
+.dropdown-animation {
+  animation-name: dropdown;
+  animation-duration: 600ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes dropanimation {
+  from {
+    height: 50px;
+  }
+  to {
+    height: 100%;
+  }
+}
+.drop-animation {
+  animation-name: dropanimation;
+  animation-duration: 600ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+/*************************gradient color css*************/
+.border-gradient {
+  background-image: repeating-conic-gradient(blue 10%, #eaeaea 20%);
+}
+
+#tsparticles:nth-child(0) {
+  width: 75% !important;
+  height: 75% !important;
+}
