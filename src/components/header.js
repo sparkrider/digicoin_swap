@@ -17,7 +17,7 @@ const Header = () => {
         <img
           src="./assets/images/Logo.png"
           alt="logo"
-          className="z-10 cursor-pointer"
+          className="z-10 cursor-pointer w-[51px] h-[51px]"
         />
       </div>
       <div className="md:block hidden z-[10] row-span-2">
